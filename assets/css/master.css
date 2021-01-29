@@ -43,6 +43,10 @@ body {
   margin: 0px auto;
   text-align: center;
 }
+
+p {
+  line-height: 1.8;
+}
 /* LAYOUT */
 
 /* HEADER NAV */
@@ -124,11 +128,24 @@ nav{
 /* HEADER MENU */
 
 /* JUMBOTRON */
+
 .jumbo {
-  background-color: #FFF3EF;
-  height: 500px;
+  height: 694px;
+  background-image: url("../img/jumbotron.png");
+  background-color: #FEF4EE;
+  background-position: top right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 60px 120px 0 0;
 }
 
+.jumbo h1 {
+  font-size: 55px;
+}
+
+.jumbo p:last-child {
+  font-size: 12px;
+}
 /* JUMBOTRON */
 
 /* UTILITY */
@@ -148,6 +165,10 @@ nav{
   margin-top: 1em;
 }
 
+.mt-2{
+  margin-top: 2em;
+}
+
 .btn {
   border-radius: 5px;
   padding: 10px;
@@ -160,6 +181,16 @@ nav{
   border-radius: 5px;
   padding: 10px;
   color: #FE775A;
+}
+
+.btn-big {
+ font-size: 14px;
+ border-radius: 5px;
+ padding: 20px 40px;
+ background-color: #FE775A;
+ text-decoration: none;
+ color: white;
+ display: inline-block;
 }
 
 /* UTILITY */
