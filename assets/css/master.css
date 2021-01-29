@@ -7,11 +7,12 @@
 }
 body {
   font-family: sans-serif;
+  color: #33475B;
 }
 
 .container {
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
 }
 
 .row:after {
@@ -56,6 +57,9 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
+}
+
+.nav-right li {
   margin-right: 20px;
 }
 
@@ -81,19 +85,28 @@ nav{
   height: 50px;
 }
 
+.nav-left li:first-child{
+  border-right: 1px solid #33475B;
+  padding-right: 20px
+}
 
-
+.nav-left li:last-child{
+  padding-left: 20px;
+}
 
 /* HEADER NAV */
 
 /* UTILITY */
-
+.ciano{
+  color: #17ACC3;
+}
 .text-blue{
   color: #33475B;
 }
 
 .arrow:after{
   content: "\0002c5";
+  font-weight: bold;
 }
 
 .mt-1{
