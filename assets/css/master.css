@@ -55,6 +55,7 @@ nav ul {
   list-style: none;
   display: inline-block;
 }
+
 nav ul li {
   display: inline-block;
 }
@@ -95,6 +96,40 @@ nav{
 }
 
 /* HEADER NAV */
+
+/* HEADER MENU */
+
+.menu .col-50 ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin-right: 20px
+}
+
+.menu {
+  height: 80px;
+}
+.menu img {
+  padding-top: 25px;
+}
+
+.menu ul {
+  line-height: 80px;
+  float: right;
+}
+
+/* HEADER MENU */
+
+/* JUMBOTRON */
+.jumbo {
+  background-color: #FFF3EF;
+  height: 500px;
+}
+
+/* JUMBOTRON */
 
 /* UTILITY */
 .ciano{
