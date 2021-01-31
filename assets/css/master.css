@@ -41,13 +41,6 @@ body {
   width: 50%;
 }
 
-.col-33 img {
-  height: 160px;
-  display: block;
-  margin: 0px auto;
-  text-align: center;
-}
-
 p {
   line-height: 1.8;
 }
@@ -137,7 +130,7 @@ nav{
   height: 694px;
   background-image: url("../img/jumbotron.png");
   background-color: #FEF4EE;
-  background-position: top right;
+  background-position: bottom right;
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
@@ -181,6 +174,60 @@ nav{
 }
 
 /* CUBE */
+
+/* CARD-BOOK */
+
+.card .col-33 {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.card-img img {
+  height: 110px;
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+}
+.box-pf {
+  position: relative;
+}
+.line {
+  width: 50%;
+  position: absolute;
+  /* content: ''; */
+  border-top: 1px solid #33475B;
+  top: 50%;
+  right: 150px;
+}
+
+ .card .col-66 p {
+  padding-right: 200px;
+}
+
+.card .col-66 {
+  padding-top: 70px;
+}
+
+.card ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.card ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.card li i{
+  color: #FE775A;
+  padding-right: 15px;
+}
+/* CARD-BOOK */
+
+.col-33 .card {
+  text-align: center;
+}
+
 
 /* UTILITY */
 .ciano{
@@ -229,5 +276,16 @@ nav{
 
 .bg-ivory {
   background-color: #F5F8FA;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 11px #eaf0f6;
+}
 }
 /* UTILITY */
