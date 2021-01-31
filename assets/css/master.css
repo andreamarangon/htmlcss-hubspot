@@ -21,16 +21,20 @@ body {
   clear: both;
 }
 
-[class^="col-"]{
+[class^="col-"] {
   float: left;
 }
 
-.col-100{
+.col-100 {
   width: 100%;
 }
 
-.col-33{
+.col-33 {
   width: calc(100% / 3);
+}
+
+.col-66 {
+  width: calc((100% / 3) * 2);
 }
 
 .col-50{
@@ -136,6 +140,10 @@ nav{
   background-position: top right;
   background-size: contain;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+.jumbo .row {
   padding: 60px 120px 0 0;
 }
 
@@ -146,7 +154,33 @@ nav{
 .jumbo p:last-child {
   font-size: 12px;
 }
+
+.jumbo-street {
+  position: absolute;
+  bottom: 0;
+  height: 86px;
+  width: 100%;
+  background-color: #AFEBE4;
+  border-top: 3px solid #33475B;
+  border-bottom: 3px solid #33475B;
+}
 /* JUMBOTRON */
+
+/* CUBE */
+
+.cube .container {
+  text-align: center;
+  padding: 50px 190px;
+}
+
+.cube-img img {
+  height: 200px;
+}
+.cube h1 {
+  font-size: 32px;
+}
+
+/* CUBE */
 
 /* UTILITY */
 .ciano{
@@ -193,4 +227,7 @@ nav{
  display: inline-block;
 }
 
+.bg-ivory {
+  background-color: #F5F8FA;
+}
 /* UTILITY */
