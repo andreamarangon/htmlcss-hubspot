@@ -41,8 +41,16 @@ body {
   width: calc((100% / 3) * 2);
 }
 
-.col-50{
+.col-50 {
   width: 50%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-60 {
+  width: 60%;
 }
 
 p {
@@ -99,7 +107,7 @@ body:not(nav) {
 
 .nav-left li:first-child{
   border-right: 1px solid #33475B;
-  padding-right: 20px
+  padding-right: 20px;
 }
 
 .nav-left li:last-child{
@@ -155,7 +163,7 @@ body:not(nav) {
 }
 
 .jumbo p:last-child {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .jumbo-street {
@@ -318,6 +326,50 @@ body:not(nav) {
 }
 /* TABLE SECTION */
 
+/* PARTNERS SECTION */
+
+.row .box-text-top {
+  padding: 50px 90px;
+}
+
+.box-text-top ul {
+  list-style: none;
+}
+
+.box-text-top ul li {
+  line-height: 25px;
+}
+
+.box-text-top h1 {
+  font-size: 50px;
+}
+
+.logo-partners img {
+width: 75%;
+vertical-align: middle;
+}
+
+.logo-partners .col-25 {
+  height: 65px;
+  line-height: 65px;
+  vertical-align: middle;
+}
+
+.box-text-bottom p:last-child {
+  font-size: 13px;
+}
+
+.asian-woman img {
+  width: 350px;
+  float: right;
+}
+
+.box-text-bottom h1 {
+  font-size: 34px;
+}
+
+/* PARTNERS SECTION */
+
 /* UTILITY */
 .ciano{
   color: #17ACC3;
@@ -362,9 +414,9 @@ body:not(nav) {
 }
 
 .btn-big {
- font-size: 14px;
+ font-size: 15px;
  border-radius: 5px;
- padding: 20px 40px;
+ padding: 21px 40px;
  background-color: #FE775A;
  text-decoration: none;
  color: white;
