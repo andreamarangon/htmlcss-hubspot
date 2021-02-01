@@ -12,7 +12,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 70%;
+  width: 66%;
 }
 
 .row:after {
@@ -50,6 +50,7 @@ p {
 
 header nav{
   background-color: #F4F9FD;
+  height: 76px;
 }
 
 nav ul {
@@ -84,7 +85,12 @@ nav{
   left: 0;
   z-index: 1;
   width: 100%;
-  height: 50px;
+  height: 76px;
+}
+
+body:not(nav) {
+  height: calc(100% - 76px);
+  margin-top: 76px;
 }
 
 .nav-left li:first-child{
@@ -175,7 +181,7 @@ nav{
 
 /* CUBE */
 
-/* CARD-BOOK */
+/* CARD-BIG */
 
 .card .col-33 {
   text-align: center;
@@ -210,10 +216,9 @@ nav{
 
 .card ul {
   list-style: none;
-  display: inline-block;
 }
 
-.card ul li {
+.card-big ul li {
   display: inline-block;
   padding-right: 20px;
 }
@@ -222,12 +227,38 @@ nav{
   color: #FE775A;
   padding-right: 15px;
 }
-/* CARD-BOOK */
+/* CARD-BIG */
+
+/* 3 CARD SMALL */
 
 .col-33 .card {
   text-align: center;
+  padding: 20px 35px;
 }
 
+.col-33 .card hr {
+  width: 90%;
+  margin: 4em auto 2em;
+  border: .5px solid;
+}
+
+.col-33 ul {
+  text-align: left;
+}
+
+.left-card {
+  margin-right: 45px;
+}
+
+.central-card {
+  margin:0 22px;
+}
+
+.right-card {
+  margin-left: 45px;
+}
+
+/* 3 CARD SMALL */
 
 /* UTILITY */
 .ciano{
@@ -242,12 +273,20 @@ nav{
   font-weight: bold;
 }
 
-.mt-1{
+.mt-1 {
   margin-top: 1em;
 }
 
-.mt-2{
+.mt-2 {
   margin-top: 2em;
+}
+
+.mt-3 {
+  margin-top: 3em;
+}
+
+.mt-4 {
+  margin-top: 4em;
 }
 
 .btn {
@@ -287,5 +326,5 @@ nav{
   border-radius: 5px;
   box-shadow: 0 0 11px #eaf0f6;
 }
-}
+
 /* UTILITY */
