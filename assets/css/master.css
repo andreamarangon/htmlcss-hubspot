@@ -29,6 +29,10 @@ body {
   width: 100%;
 }
 
+.col-25 {
+  width: calc(100% / 4);
+}
+
 .col-33 {
   width: calc(100% / 3);
 }
@@ -176,7 +180,7 @@ body:not(nav) {
   height: 200px;
 }
 .cube h1 {
-  font-size: 32px;
+  font-size: 34px;
 }
 
 /* CUBE */
@@ -258,7 +262,61 @@ body:not(nav) {
   margin-left: 45px;
 }
 
+.small-cards {
+  padding: 4em 0;
+}
+
 /* 3 CARD SMALL */
+
+/* TABLE SECTION */
+.table-section {
+  color: #ffffff;
+  text-align: center;
+}
+
+.table-section .table {
+  padding: 50px 0 100px;
+}
+
+.table-section h1 {
+  font-size: 34px;
+  padding: 50px;
+}
+
+.col-25 p:first-of-type {
+  font-size: 45px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.col-25 p:last-of-type {
+  font-size: 13px;
+}
+
+.col-25 p:first-of-type:after {
+  content: "+";
+  font-size: 25px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.table .col-25 {
+  padding: 20px;
+}
+
+.table .row .col-25:nth-child(1n) {
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.table .row .col-25:nth-child(4n) {
+  border-right: 0;
+}
+
+.table .row .col-25:nth-child(n+5) {
+  border-bottom: 0;
+}
+/* TABLE SECTION */
 
 /* UTILITY */
 .ciano{
@@ -274,19 +332,19 @@ body:not(nav) {
 }
 
 .mt-1 {
-  margin-top: 1em;
+  margin-top: 1rem;
 }
 
 .mt-2 {
-  margin-top: 2em;
+  margin-top: 2rem;
 }
 
 .mt-3 {
-  margin-top: 3em;
+  margin-top: 3rem;
 }
 
 .mt-4 {
-  margin-top: 4em;
+  margin-top: 4rem;
 }
 
 .btn {
@@ -319,6 +377,14 @@ body:not(nav) {
 
 .bg-white {
   background-color: #ffffff;
+}
+
+.bg-ciano {
+  background-color: #17ACC3;
+}
+
+.bg-table {
+  background-color: #00B1B0
 }
 
 .card {
