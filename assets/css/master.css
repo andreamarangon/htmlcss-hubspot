@@ -206,9 +206,11 @@ body:not(nav) {
   margin: 0px auto;
   text-align: center;
 }
+
 .box-pf {
   position: relative;
 }
+
 .line {
   width: 50%;
   position: absolute;
@@ -370,10 +372,32 @@ vertical-align: middle;
 
 /* PARTNERS SECTION */
 
+/* FOOTER */
+
+footer {
+  color: #ffffff;
+  background-color: #32495B;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li a {
+  color: #ffffff;
+}
+
+
+
+
+/* FOOTER */
+
 /* UTILITY */
+
 .ciano{
   color: #17ACC3;
 }
+
 .text-blue{
   color: #33475B;
 }
@@ -436,8 +460,10 @@ vertical-align: middle;
 }
 
 .bg-table {
-  background-color: #00B1B0
+  background-color: #00B1B0;
 }
+
+
 
 .card {
   background-color: #ffffff;
