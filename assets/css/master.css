@@ -265,9 +265,8 @@ body:not(nav) {
 }
 
 .col-33 .card hr {
-  width: 90%;
   margin: 4em auto 2em;
-  border: .5px solid;
+  border: 1px solid;
 }
 
 .col-33 ul {
@@ -375,7 +374,7 @@ vertical-align: middle;
   font-size: 13px;
 }
 
-.asian-woman img {
+.woman img {
   width: 350px;
   float: right;
 }
@@ -474,6 +473,10 @@ footer .col-50 li {
   margin-top: 4rem;
 }
 
+.mb-1{
+  margin-bottom: 1rem;
+}
+
 .mb-3{
   margin-bottom: 3rem;
 }
@@ -512,7 +515,7 @@ footer .col-50 li {
 .card {
   background-color: #ffffff;
   border-radius: 5px;
-  box-shadow: 0 0 11px #eaf0f6;
+  box-shadow: 0 0 10px #eaf0f6;
 }
 
 /* UTILITY */
